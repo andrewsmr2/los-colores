@@ -206,7 +206,7 @@
         max-width: 480px;
     
         position: relative;
-        bottom: 40px;
+        bottom: 52px;
     
         padding: 20px;
         padding-left: 25px;
@@ -259,6 +259,12 @@
         .p2 {
             position: relative;
             bottom: 40px;
+        }
+
+        .title {
+            margin-bottom: 20px;
+            position: relative;
+            bottom: 10px;
         }
         
         #toggleButton:active {

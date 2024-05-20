@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Los colores</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <html lang="en">
+            
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="color.png">
+
+      <style>
+        
+        p{
+          color: black;
+        }
+
+      </style>
+
+    </head>
+    
+    <body>
+
+      <div class="button-container">  
+
+          <button onclick="dark()" class="dark-button"></button>
+
+          <button onclick="light()" class="light-button"></button>
+
+      </div>
+
+
+      <div id="darkMode">
+      </div>
+
+      <div id="lightMode">
+      </div>
+
+
+
+
+<header>
+
+<main>
+            
+  <h1>
+      Los colores
+  </h1>
+
+  <div class="mp3-los-colores">
+
+      <audio controls>
+          <source src="audio/los-colores.mp3" type="audio/mp3">
+          Your browser does not support the audio tag.
+      </audio>
+
+  </div> 
+
+</header>
+
+
+<div class="center">
+
+  <p class="intro">
+          Learn / study the colors in Spanish. <br> Hover your mouse over each square to see / hear the spanish word for that color.
+  </p>
+
+</div>
+
+<div class="color-container">
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: red;">
+              <p>red</p>
+          </div>
+
+          <div class="back" style="background-color: red;"> <p>rojo</p>
+
+          <div class="mp3">
+              <audio controls>
+                  <source src="audio/rojo.mp3" type="audio/mp3">
+                  Your browser does not support the audio tag.
+              </audio>
+          </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: orange;"> <p> orange </p>
+          </div>
+
+          <div class="back" style="background-color: orange;"> <p class="p2"> naranja /<br> anaranjado </p>
+
+              <div class="mp3-2">
+                  <audio controls>
+                      <source src="audio/naranja.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: yellow;"> <p> yellow</p>
+          </div>
+
+          <div class="back" style="background-color: yellow;"> <p> amarillo </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/amarillo.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: green;"> <p> green </p>
+          </div>
+
+          <div class="back" style="background-color: green;"> <p> verde </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/verde.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: blue;"> <p> blue</p>
+          </div>
+
+          <div class="back" style="background-color: blue;"> <p> azul </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/azul.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: purple"> <p> purple </p>
+          </div>
+
+          <div class="back" style="background-color: purple"> <p> morado / <br> púrpura </p>
+
+              <div class="mp3-2">
+                  <audio controls>
+                      <source src="audio/morado.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front lime" style="background-color: pink;"> <p>pink </p>
+          </div>
+
+          <div class="back lime" style="background-color: pink;"> <p> rosado / rosa</p>
+
+              <div class="mp3-2">
+                  <audio controls>
+                      <source src="audio/rosa.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: white;"> <p> white</p>
+          </div>
+
+          <div class="back" style="background-color: white;"> <p> blanco </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/blanco.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: black;"> <p> black </p>
+          </div>
+
+          <div class="back" style="background-color: black;"> <p> negro </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/black.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: grey;"> <p> grey</p>
+          </div>
+
+          <div class="back" style="background-color: grey;"> <p> gris</p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/gris.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: saddlebrown;"> <p> brown</p>
+          </div>
+
+          <div class="back" style="background-color: saddlebrown;"> <p>marrón </p>
+              
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/brown.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: #00FFFF;"> <p> cyan</p>
+          </div>
+
+          <div class="back" style="background-color: #00FFFF;"> <p>cian </p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/cian.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front lime" style="background-color: #2eff2e;"> <p> lime green</p>
+          </div>
+
+          <div class="back lime" style="background-color:#2eff2e;"> <p style="max-width: 180px;">verde limón / verde lima</p>
+
+              <div class="mp3-2">
+                  <audio controls>
+                      <source src="audio/verde-lima.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+              
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: #d4af37;"> <p> gold</p>
+          </div>
+
+          <div class="back" style="background-color:#d4af37;"> <p>dorado</p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/dorado.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: #BCC6CC;"> <p> silver</p>
+          </div>
+
+          <div class="back" style="background-color:#BCC6CC;"> <p>plateado</p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/plateado.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front lime" style="background-color: #11ffe3;"> <p> teal</p>
+          </div>
+
+          <div class="back lime" style="background-color:#11ffe3;"> <p>verde azulado</p>
+
+              <div class="mp3-2">
+                  <audio controls>
+                      <source src="audio/verde-azulado.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: #48d1cc;"> <p> turqoise</p>
+          </div>
+
+          <div class="back" style="background-color:#48d1cc;"> <p>turquesa</p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/turquesa.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: rgb(22, 13, 105);"> <p> dark blue</p>
+          </div>
+
+          <div class="back" style="background-color: rgb(22, 13, 105);"> <p>azul oscuro</p> 
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/azul-oscuro.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: rgb(169, 234, 255);"> <p> light blue</p>
+          </div>
+
+          <div class="back" style="background-color:rgb(169, 234, 255);"> <p>azul claro</p>
+              
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/azul-claro.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+  <div class="container">
+      <div class="card" id="card">
+          <div class="front" style="background-color: #FF00FF;"> <p> bright pink</p>
+          </div>
+
+          <div class="back" style="background-color:#FF00FF;"> <p>rosa brillante</p>
+
+              <div class="mp3">
+                  <audio controls>
+                      <source src="audio/rosa-brillante.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                  </audio>
+              </div> 
+
+          </div>
+      </div> 
+  </div> <!-- container -->
+
+</div>
+
+</main>
+
+
+
+<script>
+
+    function dark() { 
+      var menu = document.getElementById("darkMode");
+    
+      menu.classList.toggle("active");
+      document.body.classList.toggle ("dark");
+
+    }
+
+    function light() { 
+      var menu = document.getElementById("darkMode");
+    
+      menu.classList.toggle("active");
+      document.body.classList.toggle ("light");
+    }
+
+    </script>
+
+    </body>
+</html>

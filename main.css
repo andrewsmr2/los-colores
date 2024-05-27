@@ -218,6 +218,20 @@
         .lime p {
             max-width: 130px;
         }
+
+        .mobile-disclaimer {
+            display: none;
+
+            background-color: white;
+            padding: 20px;
+            width: 100%;
+            margin: 0;
+            margin-top: 10px;
+            border: 2px solid black;
+
+            z-index: 10;
+            line-height: 1.4;
+        }
         
         .mp3 audio {
         width: 150px;
@@ -275,6 +289,14 @@
         #toggleButton:hover {
             cursor: pointer;
         }
+
+        @media (max-width: 400px) {
+            .mobile-disclaimer {
+                display: block;
+            }
+          }
+
+
         
         
      
